@@ -33,7 +33,7 @@ defmodule Finch.MixProject do
 
   defp deps do
     [
-      {:mint, "~> 1.2"},
+      {:mint, git: "https://github.com/elixir-mint/mint.git", branch: "master"},
       {:castore, "~> 0.1"},
       {:nimble_pool, "~> 0.2"},
       {:nimble_options, "~> 0.3.5"},
